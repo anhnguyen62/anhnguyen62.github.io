@@ -1,0 +1,120 @@
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529; 
+margin: 0px;;
+  }
+  
+  .container {
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: space-between;
+  }
+    
+  .navigation-section{
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: space-between;
+  }
+  .logo-wrapper {
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+  
+  .sign-in-wrapper, .shopping-cart-wrapper {
+      font-size: 20px; 
+      padding-right: 20px;
+  }
+  
+  a{
+      color: black;
+      text-decoration: none;
+  }
+  .menu{
+      display: flex;
+      list-style-type: none;
+      padding-left: 0px;
+      margin-bottom: 0px;
+
+  }
+  .menu li {
+      margin-left: 20px;
+      padding: 17px 0px 17px 0px;
+
+  }
+  .navigation-bar{
+      background-color: #282828;
+      color: white;
+      
+  }
+  .banner{
+      height: 720px;
+      background-image: url(bg.jpg);
+background-size: 100% 100%;
+  }
+  .products-container{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 1140px;
+    margin: auto;
+  }
+
+  .product {
+    flex: 0 0 23%;  
+    max-width: 23%;
+  }
+
+  .product-image img {
+      width: 100%;
+  }
+  .section-heading{
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 70px;
+      margin-bottom: 70px;
+  }
+  .section-heading h2 {
+    font-size: 36px;
+
+  }
+  .product-content{
+display:flex;
+align-items: baseline ;
+justify-content: space-between;
+font-weight: bold;
+  }
+
+  .product-price{
+      order:1;
+      font-weight: bold;
+      font-size: 14px;
+}
+
+  .author-image{
+      background-image: url(person_2.jpg);
+      height: 80px;
+      border-radius: 50%;
+      position: relative;
+      width: 80px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin: auto; 
+    }
+
+    .authors-container{
+        display: flex; 
+        max-width:  1140px;  
+        margin: auto; 
+    }
+
+    .author-content{
+        text-align: center;
+     }
+  
+     .author{
+        padding: 0 15px;
+
+     }
